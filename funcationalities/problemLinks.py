@@ -36,26 +36,29 @@ class problems:
     def getUserProblemsFunction(self, user):
         # time.sleep(0.5)
         # print("delayed")
-        start = time.time()
-        res = requests.get(
-            "https://codeforces.com/api/user.status?handle="+user)
-        print(len(res.text),user)
-        print(res.status_code)
-        user_status = json.loads(res.text)
-        temp_userProblems = user_status["result"]
-        temp_userProblems_df = pd.DataFrame(temp_userProblems)
+        try:
+            start = time.time()
+            res = requests.get(
+                "https://codeforces.com/api/user.status?handle="+user)
+            print(len(res.text),user)
+            print(res.status_code)
+            user_status = json.loads(res.text)
+            temp_userProblems = user_status["result"]
+            temp_userProblems_df = pd.DataFrame(temp_userProblems)
 
-        # here verdict has been ignored all problems has been included irrespective of result whether accpeted or not
-        userProblems_df = pd.DataFrame(
-            temp_userProblems_df["problem"].to_dict())
-        userProblems_df = userProblems_df.transpose()
-        userProblems_df.drop(["name", "type", "points"], axis=1, inplace=True)
+            # here verdict has been ignored all problems has been included irrespective of result whether accpeted or not
+            userProblems_df = pd.DataFrame(
+                temp_userProblems_df["problem"].to_dict())
+            userProblems_df = userProblems_df.transpose()
+            userProblems_df.drop(["name", "type", "points"], axis=1, inplace=True)
 
-        userProblems_df.drop_duplicates(
-            subset=["contestId", "index"], inplace=True)
-        print(f"{time.time() - start} s in getUserProblemsFunction")
-        return userProblems_df
-
+            userProblems_df.drop_duplicates(
+                subset=["contestId", "index"], inplace=True)
+            print(f"{time.time() - start} s in getUserProblemsFunction")
+            return userProblems_df
+        except:
+            print("exception occured  retrying")
+            getUserProblemsFunction(user)
     def createUserProblems(self, userlist):
         start = time.time()
         # userlist=["maxrage","Dev_Manus","Dipankar_Kumar_Singh","akashsingh_10"]
