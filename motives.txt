@@ -1,0 +1,10 @@
+first create noraml program to do task 
+then 
+	-> website extension
+	-> mobile application 
+1) Get usernames from user and a range of rating where you want to get a random problem to solve which is unsolved by every user.
+   automatically notify who have solved the problem
+   ->random problem can have specific tag or rating
+   -> problem ever tried before or never
+   -> count of random problems you want to get
+2) contest which are not solved by any user

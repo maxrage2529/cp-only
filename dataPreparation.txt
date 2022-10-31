@@ -1,0 +1,9 @@
+contest.status
+->Returns submissions for specified contest. Optionally can return submissions of specified user.
+-> can be used to check whether given problem or contest is solved by user of not
+
+problemset.problems
+-> Returns all problems from problemset. Problems can be filtered by tags.
+
+user.status
+->Returns submissions of specified user.
