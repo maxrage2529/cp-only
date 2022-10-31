@@ -35,8 +35,11 @@ class problems:
 
     def getUserProblemsFunction(self, user):
         start = time.time()
-        user_status = json.loads(requests.get(
-            "https://codeforces.com/api/user.status?handle="+user).text)
+        res = requests.get(
+            "https://codeforces.com/api/user.status?handle="+user)
+        print(res.text)
+        print(res.status_code)
+        user_status = json.loads(res.text)
         temp_userProblems = user_status["result"]
         temp_userProblems_df = pd.DataFrame(temp_userProblems)
 
