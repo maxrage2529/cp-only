@@ -69,7 +69,7 @@ class problems:
             self.user_status = json.loads(res.text)
         except:
             self.getUserProblemsFunction(user,startFrom,count)
-        if(self.user_status["status"]=="FAILED" or len(user_status["result"])==0):
+        if(self.user_status["status"]=="FAILED" or len(self.user_status["result"])==0):
             return pd.DataFrame([])
         temp_userProblems = self.user_status["result"]
         temp_userProblems_df = pd.DataFrame(temp_userProblems)
