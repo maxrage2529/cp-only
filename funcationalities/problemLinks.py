@@ -6,7 +6,7 @@ import pandas as pd
 
 # python -m venv folder_name
 # venv\Scripts\activate
-# pip install pandas requests
+# pip install pandas requests flask gunicorn
 # pip freeze > requirements.txt
 # git init
 
