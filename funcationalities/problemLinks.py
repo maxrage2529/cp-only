@@ -99,57 +99,63 @@ class problems:
         except:
             self.getUserProblemsFunction(user,startFrom,count)
     def mergeUserProblems(self,user):
-        filename = os.path.join(self.dirname, f"database\{user}.csv")
-        print(os.path.exists(filename))
-        if(not os.path.exists(filename)):
-            self.getUserProblemsFunction(user).to_csv(filename,index=False)
-        else:
-            print(user)
-            print(self.problemCounts_df.loc[self.problemCounts_df.username==user])
-            totalSize=self.problemCounts_df.loc[self.problemCounts_df.username==user]["count"].iloc[0]
-            # print(totalSize)
-            count=self.getUserProblemsFunction(user,totalSize+1).shape[0]
-            print(totalSize,count)
-            if(count>0):
-                filename = os.path.join(os.path.dirname(__file__), f"database\{user}.csv")
-                tempUser_df=pd.read_csv(filename)
-                newSolvedProblems=self.getUserProblemsFunction(user,1,count+1)
-                print(newSolvedProblems)
-                tempUser_df=pd.concat([ newSolvedProblems,tempUser_df],ignore_index=True)
-                print(tempUser_df)   
-                tempUser_df.to_csv(filename,index=False)
-                
+        try:
+            filename = os.path.join(self.dirname, f"database\{user}.csv")
+            print(os.path.exists(filename))
+            if(not os.path.exists(filename)):
+                self.getUserProblemsFunction(user).to_csv(filename,index=False)
+            else:
+                print(user)
+                print(self.problemCounts_df.loc[self.problemCounts_df.username==user])
+                totalSize=self.problemCounts_df.loc[self.problemCounts_df.username==user]["count"].iloc[0]
+                # print(totalSize)
+                count=self.getUserProblemsFunction(user,totalSize+1).shape[0]
+                print(totalSize,count)
+                if(count>0):
+                    filename = os.path.join(os.path.dirname(__file__), f"database\{user}.csv")
+                    tempUser_df=pd.read_csv(filename)
+                    newSolvedProblems=self.getUserProblemsFunction(user,1,count+1)
+                    print(newSolvedProblems)
+                    tempUser_df=pd.concat([ newSolvedProblems,tempUser_df],ignore_index=True)
+                    print(tempUser_df)   
+                    tempUser_df.to_csv(filename,index=False)
+        except:
+            self.mergeUserProblems(user)        
                 
     def createUserProblems(self, userlist):
-        start = time.time()
-        # userlist=["maxrage","Dev_Manus","Dipankar_Kumar_Singh","akashsingh_10"]
-        self.mergeUserProblems(userlist[0])
-        filename = os.path.join(self.dirname, f"database\{userlist[0]}.csv")
-        self.userProblems_df = pd.read_csv(filename)
-        for user in userlist[1:]:
-            self.mergeUserProblems(user)
-            filename = os.path.join(self.dirname, f"database\{user}.csv")  
-            # print(pd.concat([self.userProblems_df, pd.read_csv(filename)]
-            #     ,ignore_index=True))  
-            self.userProblems_df = pd.concat([self.userProblems_df, pd.read_csv(filename)]
-                ,ignore_index=True)
-            self.userProblems_df=self.userProblems_df.drop_duplicates(subset=["contestId", "index"],ignore_index=True)
+        try:
+            start = time.time()
+            # userlist=["maxrage","Dev_Manus","Dipankar_Kumar_Singh","akashsingh_10"]
+            self.mergeUserProblems(userlist[0])
+            filename = os.path.join(self.dirname, f"database\{userlist[0]}.csv")
+            self.userProblems_df = pd.read_csv(filename)
+            for user in userlist[1:]:
+                self.mergeUserProblems(user)
+                filename = os.path.join(self.dirname, f"database\{user}.csv")  
+                # print(pd.concat([self.userProblems_df, pd.read_csv(filename)]
+                #     ,ignore_index=True))  
+                self.userProblems_df = pd.concat([self.userProblems_df, pd.read_csv(filename)]
+                    ,ignore_index=True)
+                self.userProblems_df=self.userProblems_df.drop_duplicates(subset=["contestId", "index"],ignore_index=True)
 
-        
-        
-        # user="userProblems_df"
-        # filename = os.path.join(self.dirname, f"database\{user}.csv") 
-        # self.userProblems_df.to_csv(filename,index=False)
-        print(f"{time.time() - start} s in createUserProblems")
-
+            
+            
+            # user="userProblems_df"
+            # filename = os.path.join(self.dirname, f"database\{user}.csv") 
+            # self.userProblems_df.to_csv(filename,index=False)
+            print(f"{time.time() - start} s in createUserProblems")
+        except:
+            self.createUserProblems(userlist)
     def getProblemLinks(self, low, high, userlist, need):
-        start = time.time()
-        self.createUserProblems(userlist)
-        self.allProblems_df = self.allProblems_df.loc[(
-            self.allProblems_df.rating >= low) & (self.allProblems_df.rating <= high)]
-        print(f"{time.time() - start} s in getProblemLinks or total time take")
-        return self.allProblems_df.sample(need).loc[:, ["contestId", "index"]].to_dict()
-
+        try:
+            start = time.time()
+            self.createUserProblems(userlist)
+            self.allProblems_df = self.allProblems_df.loc[(
+                self.allProblems_df.rating >= low) & (self.allProblems_df.rating <= high)]
+            print(f"{time.time() - start} s in getProblemLinks or total time take")
+            return self.allProblems_df.sample(need).loc[:, ["contestId", "index"]].to_dict()
+        except:
+            self.getProblemLinks(self, low, high, userlist, need)
 
 if __name__ == "__main__":
     obj = problems(False)
