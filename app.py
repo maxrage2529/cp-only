@@ -24,8 +24,10 @@ def callProblems(n):
 
 @app.route("/test")
 def test():
-    print(request.args.get("username", None))
-    return Response("Test")
+    res = ""
+    for k,v in request.args.items() :
+        res+=f"{k} : {v}\n"
+    return Response(res)
 
 
 if __name__ == '__main__':
