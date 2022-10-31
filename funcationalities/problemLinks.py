@@ -58,7 +58,7 @@ class problems:
             return userProblems_df
         except:
             print("exception occured  retrying")
-            getUserProblemsFunction(user)
+            self.getUserProblemsFunction(user)
     def createUserProblems(self, userlist):
         start = time.time()
         # userlist=["maxrage","Dev_Manus","Dipankar_Kumar_Singh","akashsingh_10"]
