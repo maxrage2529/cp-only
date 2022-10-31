@@ -34,8 +34,8 @@ class problems:
         print(f"{time.time() - start} s in init")
 
     def getUserProblemsFunction(self, user):
-        # time.sleep(0.5)
-        # print("delayed")
+        time.sleep(0.5)
+        print("delayed")
         try:
             start = time.time()
             res = requests.get(
