@@ -37,7 +37,7 @@ class problems:
         start = time.time()
         res = requests.get(
             "https://codeforces.com/api/user.status?handle="+user)
-        print(res.text[:5])
+        print(res.text[:50])
         print(res.status_code)
         user_status = json.loads(res.text)
         temp_userProblems = user_status["result"]
