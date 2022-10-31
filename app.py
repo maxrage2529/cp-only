@@ -1,6 +1,7 @@
 from werkzeug import Response
 from funcationalities.problemLinks import problems
 from flask import Flask, jsonify, request
+import time
 
 app = Flask(__name__)
 
@@ -12,13 +13,15 @@ def hello_world():
 
 @app.route('/getProblemLinks')
 def callProblems():
-    
+    start = time.time()
     userlist = request.args.get('userlist').split(',')
     low = int(request.args.get('low'))
     high = int(request.args.get('high'))
     need = int(request.args.get('need'))
     obj = problems()
-    return jsonify(obj.getProblemLinks(low, high, userlist, need))
+    temp = obj.getProblemLinks(low, high, userlist, need)
+    print(f"{time.time() - start} s for request")
+    return jsonify(temp)
 
 
 @app.route("/test")

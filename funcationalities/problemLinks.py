@@ -3,6 +3,7 @@ import json
 import random
 import requests
 import pandas as pd
+import time
 
 # python -m venv folder_name
 # venv\Scripts\activate
@@ -23,14 +24,17 @@ import pandas as pd
 
 class problems:
     def __init__(self):
+        start = time.time()
         problemset_problems = json.loads(requests.get(
             "https://codeforces.com/api/problemset.problems").text)
         allProblems = problemset_problems["result"]["problems"]
         self.allProblems_df = pd.DataFrame(allProblems)
         self.allProblems_df.drop(
             ["name", "type", "points"], axis=1, inplace=True)
+        print(f"{time.time() - start} s in init")
 
     def getUserProblemsFunction(self, user):
+        start = time.time()
         user_status = json.loads(requests.get(
             "https://codeforces.com/api/user.status?handle="+user).text)
         temp_userProblems = user_status["result"]
@@ -44,19 +48,24 @@ class problems:
 
         userProblems_df.drop_duplicates(
             subset=["contestId", "index"], inplace=True)
+        print(f"{time.time() - start} s in getUserProblemsFunction")
         return userProblems_df
 
     def createUserProblems(self, userlist):
+        start = time.time()
         # userlist=["maxrage","Dev_Manus","Dipankar_Kumar_Singh","akashsingh_10"]
         self.userProblems_df = self.getUserProblemsFunction(userlist[0])
         for user in userlist[1:]:
             self.userProblems_df = pd.concat([self.userProblems_df, self.getUserProblemsFunction(
                 user)]).drop_duplicates(subset=["contestId", "index"])
+        print(f"{time.time() - start} s in createUserProblems")
 
     def getProblemLinks(self, low, high, userlist, need):
+        start = time.time()
         self.createUserProblems(userlist)
         self.allProblems_df = self.allProblems_df.loc[(
             self.allProblems_df.rating >= low) & (self.allProblems_df.rating <= high)]
+        print(f"{time.time() - start} s in createUserProblems")
         return self.allProblems_df.sample(need).loc[:, ["contestId", "index"]].to_dict()
 
 
