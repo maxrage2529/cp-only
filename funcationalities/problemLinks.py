@@ -34,12 +34,12 @@ class problems:
         print(f"{time.time() - start} s in init")
 
     def getUserProblemsFunction(self, user):
-        time.sleep(0.5)
-        print("delayed")
+        # time.sleep(0.5)
+        # print("delayed")
         start = time.time()
         res = requests.get(
             "https://codeforces.com/api/user.status?handle="+user)
-        print(res.text[:50])
+        print(len(res.text),user)
         print(res.status_code)
         user_status = json.loads(res.text)
         temp_userProblems = user_status["result"]
