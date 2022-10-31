@@ -34,6 +34,8 @@ class problems:
         print(f"{time.time() - start} s in init")
 
     def getUserProblemsFunction(self, user):
+        time.sleep(0.5)
+        print("delayed")
         start = time.time()
         res = requests.get(
             "https://codeforces.com/api/user.status?handle="+user)
