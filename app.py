@@ -15,10 +15,12 @@ def hello_world():
 def callProblems():
     start = time.time()
     userlist = request.args.get('userlist').split(',')
+    userlist=list(map(lambda x: x.lower(), userlist))
     low = int(request.args.get('low'))
     high = int(request.args.get('high'))
     need = int(request.args.get('need'))
-    obj = problems()
+    #refresh argument input lena hai
+    obj = problems(False)
     temp = obj.getProblemLinks(low, high, userlist, need)
     print(f"{time.time() - start} s for request")
     return jsonify(temp)

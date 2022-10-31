@@ -1,0 +1,921 @@
+contestId,index,rating,tags
+1618,F,2000,"['bitmasks', 'constructive algorithms', 'dfs and similar', 'implementation', 'math', 'strings']"
+1598,A,800,"['brute force', 'dfs and similar', 'dp', 'implementation']"
+1598,C,1200,"['data structures', 'dp', 'implementation', 'math', 'two pointers']"
+1592,A,800,"['binary search', 'greedy', 'math', 'sortings']"
+1579,D,1400,"['constructive algorithms', 'graphs', 'greedy']"
+1579,B,1100,"['implementation', 'sortings']"
+1579,E1,1000,"['constructive algorithms', 'greedy', 'math']"
+1579,A,800,"['math', 'strings']"
+1566,A,800,"['binary search', 'greedy', 'math']"
+1566,C,1000,"['bitmasks', 'constructive algorithms', 'dp', 'greedy']"
+1566,B,800,"['bitmasks', 'constructive algorithms', 'dp', 'greedy']"
+1567,B,1000,"['bitmasks', 'greedy']"
+1567,A,800,"['implementation', 'strings']"
+1546,A,800,"['brute force', 'greedy']"
+1547,B,800,"['greedy', 'implementation', 'strings']"
+1547,A,800,"['implementation', 'math']"
+1542,C,1600,"['math', 'number theory']"
+1543,A,900,"['greedy', 'math', 'number theory']"
+1543,B,900,"['combinatorics', 'greedy', 'math']"
+1542,B,1500,"['constructive algorithms', 'math', 'number theory']"
+1542,A,800,['math']
+1541,C,1400,"['constructive algorithms', 'graphs', 'greedy', 'shortest paths', 'sortings']"
+1541,B,1200,"['brute force', 'implementation', 'math', 'number theory']"
+1541,A,800,"['constructive algorithms', 'greedy', 'implementation']"
+1539,C,1200,"['greedy', 'sortings']"
+1539,A,1000,"['combinatorics', 'geometry', 'greedy', 'math']"
+1539,B,800,"['dp', 'implementation', 'strings']"
+1537,E2,2200,"['binary search', 'data structures', 'greedy', 'hashing', 'string suffix structures', 'strings', 'two pointers']"
+1537,E1,1600,"['binary search', 'brute force', 'dp', 'greedy', 'hashing', 'implementation', 'string suffix structures', 'strings', 'two pointers']"
+1537,D,1700,"['games', 'math', 'number theory']"
+1537,C,1200,"['constructive algorithms', 'greedy', 'implementation', 'math']"
+1537,B,900,"['constructive algorithms', 'greedy', 'math']"
+1537,A,800,"['greedy', 'math']"
+1534,C,1300,"['combinatorics', 'dp', 'dsu', 'graphs', 'math']"
+1534,A,800,"['brute force', 'implementation']"
+1506,D,1400,"['constructive algorithms', 'data structures', 'greedy']"
+1538,C,1300,"['binary search', 'data structures', 'math', 'two pointers']"
+1538,D,1700,"['constructive algorithms', 'math', 'number theory']"
+1538,B,800,"['greedy', 'math']"
+1538,A,800,"['brute force', 'dp', 'greedy']"
+1536,A,800,"['brute force', 'constructive algorithms']"
+1535,B,900,"['brute force', 'greedy', 'math', 'number theory', 'sortings']"
+1535,A,800,"['brute force', 'implementation']"
+1523,B,1100,['constructive algorithms']
+1523,A,800,['implementation']
+1526,C1,1500,"['brute force', 'data structures', 'dp', 'greedy']"
+1526,B,1400,"['dp', 'math', 'number theory']"
+1526,A,800,"['constructive algorithms', 'sortings']"
+1527,C,1600,"['hashing', 'implementation', 'math']"
+1527,A,800,['bitmasks']
+1527,B1,1200,"['constructive algorithms', 'games']"
+1525,B,900,"['constructive algorithms', 'greedy']"
+1525,A,800,"['math', 'number theory']"
+584,A,1000,['math']
+584,D,1800,"['brute force', 'math', 'number theory']"
+58,B,1300,['greedy']
+888,C,1400,"['binary search', 'implementation', 'two pointers']"
+888,E,1800,"['bitmasks', 'divide and conquer', 'meet-in-the-middle']"
+888,D,1600,"['combinatorics', 'dp', 'math']"
+1521,B,1300,"['constructive algorithms', 'math', 'number theory']"
+1521,A,1000,"['constructive algorithms', 'math', 'number theory']"
+1249,D1,1800,['greedy']
+1249,C2,1500,"['binary search', 'greedy', 'math', 'meet-in-the-middle']"
+1520,F1,1600,"['binary search', 'interactive']"
+1520,E,1400,"['greedy', 'math']"
+1520,C,1000,['constructive algorithms']
+1520,D,1200,"['data structures', 'hashing', 'math']"
+1520,B,800,"['brute force', 'math', 'number theory']"
+1520,A,800,"['brute force', 'implementation']"
+1034,A,1800,['number theory']
+476,D,1900,"['constructive algorithms', 'greedy', 'math']"
+476,B,1300,"['bitmasks', 'brute force', 'combinatorics', 'dp', 'math', 'probabilities']"
+545,C,1500,"['dp', 'greedy']"
+545,B,1100,['greedy']
+545,D,1300,"['greedy', 'implementation', 'sortings']"
+987,C,1400,"['brute force', 'dp', 'implementation']"
+1515,C,1400,"['constructive algorithms', 'data structures', 'greedy']"
+1515,A,800,"['constructive algorithms', 'greedy', 'math']"
+1515,B,1000,"['brute force', 'geometry', 'math', 'number theory']"
+1519,D,1600,"['brute force', 'dp', 'implementation', 'math', 'two pointers']"
+1519,C,1400,"['brute force', 'data structures', 'greedy', 'number theory', 'sortings']"
+1519,B,800,"['dp', 'math']"
+1519,A,800,['math']
+1328,B,1300,"['binary search', 'brute force', 'combinatorics', 'implementation', 'math']"
+96,B,1300,"['binary search', 'bitmasks', 'brute force']"
+1513,B,1400,"['bitmasks', 'combinatorics', 'constructive algorithms', 'math']"
+1516,B,1500,"['bitmasks', 'brute force', 'dp', 'greedy']"
+1517,B,1200,"['constructive algorithms', 'greedy', 'sortings']"
+1517,A,800,"['greedy', 'math']"
+478,C,1800,['greedy']
+459,B,1300,"['combinatorics', 'implementation', 'sortings']"
+455,A,1500,['dp']
+1513,C,1600,"['dp', 'matrices']"
+1511,D,1600,"['brute force', 'constructive algorithms', 'graphs', 'greedy', 'strings']"
+1516,C,1700,"['bitmasks', 'constructive algorithms', 'dp', 'math']"
+1516,A,800,['greedy']
+1514,C,1600,"['greedy', 'number theory']"
+1514,B,1200,"['bitmasks', 'combinatorics', 'math']"
+1514,A,800,"['math', 'number theory']"
+1509,B,1100,['greedy']
+1509,A,800,['constructive algorithms']
+1511,B,1100,"['constructive algorithms', 'math', 'number theory']"
+1511,C,1100,"['brute force', 'data structures', 'implementation', 'trees']"
+597,B,1600,"['dp', 'greedy', 'sortings']"
+597,A,1600,['math']
+1504,B,1200,"['constructive algorithms', 'greedy', 'implementation', 'math']"
+1504,A,800,"['constructive algorithms', 'strings']"
+1498,A,800,"['brute force', 'math']"
+1506,E,1500,"['constructive algorithms', 'implementation']"
+1506,B,1100,"['greedy', 'implementation']"
+1506,C,1000,"['brute force', 'implementation', 'strings']"
+1506,A,800,['math']
+1484,A,800,['constructive algorithms']
+1499,B,1000,"['brute force', 'dp', 'greedy', 'implementation']"
+1499,A,800,"['combinatorics', 'constructive algorithms', 'math']"
+1497,C1,1200,"['constructive algorithms', 'math']"
+1497,B,1200,"['constructive algorithms', 'greedy', 'math']"
+1497,A,800,"['brute force', 'data structures', 'greedy', 'sortings']"
+1501,B,900,"['dp', 'implementation', 'sortings']"
+1496,C,1200,"['geometry', 'greedy', 'sortings']"
+1496,B,1100,['math']
+1496,A,900,"['brute force', 'constructive algorithms', 'greedy', 'strings']"
+1492,C,1500,"['binary search', 'data structures', 'dp', 'greedy', 'two pointers']"
+1492,B,1100,"['data structures', 'greedy', 'math']"
+1492,A,800,['math']
+1490,F,1500,"['binary search', 'data structures', 'greedy', 'math', 'sortings']"
+1490,C,1100,"['binary search', 'brute force', 'brute force', 'math']"
+1490,B,1000,"['brute force', 'constructive algorithms', 'math']"
+1487,A,800,"['implementation', 'sortings']"
+1485,A,1000,"['brute force', 'greedy', 'math', 'number theory']"
+1485,B,1200,"['dp', 'implementation', 'math']"
+919,D,1700,"['dfs and similar', 'dp', 'graphs']"
+1480,B,900,"['greedy', 'implementation', 'sortings']"
+1480,A,800,"['games', 'greedy', 'strings']"
+1481,B,1100,"['brute force', 'greedy', 'implementation']"
+1481,A,800,"['greedy', 'strings']"
+1476,B,1300,"['binary search', 'brute force', 'greedy', 'math']"
+1476,A,1000,"['binary search', 'constructive algorithms', 'greedy', 'math']"
+1478,B,1100,"['brute force', 'dp', 'greedy', 'math']"
+1478,A,800,"['brute force', 'greedy']"
+1475,E,1600,"['combinatorics', 'math', 'sortings']"
+1475,C,1400,"['combinatorics', 'graphs', 'math']"
+1475,B,900,"['brute force', 'dp', 'math']"
+1475,A,900,"['math', 'number theory']"
+1111,A,1000,"['implementation', 'strings']"
+1093,C,1300,['greedy']
+1093,A,800,['math']
+1093,D,1700,"['dfs and similar', 'graphs']"
+1093,B,900,"['constructive algorithms', 'greedy', 'sortings', 'strings']"
+1251,C,1600,"['greedy', 'two pointers']"
+1251,B,1400,"['greedy', 'strings']"
+1453,B,1400,"['constructive algorithms', 'implementation']"
+1278,B,1500,"['greedy', 'math']"
+277,A,1400,"['dfs and similar', 'dsu']"
+1474,B,1000,"['binary search', 'constructive algorithms', 'greedy', 'math', 'number theory']"
+1474,A,800,['greedy']
+1324,D,1400,"['binary search', 'data structures', 'sortings', 'two pointers']"
+1374,D,1400,"['math', 'sortings', 'two pointers']"
+1263,D,1500,"['dfs and similar', 'dsu', 'graphs']"
+1473,B,1000,"['brute force', 'math', 'number theory', 'strings']"
+1473,A,800,"['greedy', 'implementation', 'math', 'sortings']"
+1467,B,1700,"['brute force', 'implementation']"
+1467,A,900,"['constructive algorithms', 'greedy', 'math']"
+1471,C,1300,"['brute force', 'greedy', 'sortings']"
+1471,B,1100,"['brute force', 'greedy', 'implementation', 'math']"
+1471,A,900,"['greedy', 'math', 'number theory']"
+1472,A,800,"['greedy', 'math']"
+1472,C,1100,"['dp', 'graphs']"
+1472,B,800,"['dp', 'greedy', 'math']"
+1466,D,1500,"['data structures', 'greedy', 'sortings', 'trees']"
+1466,C,1300,"['dp', 'greedy', 'strings']"
+1466,B,800,"['dp', 'greedy']"
+1466,A,800,"['brute force', 'geometry', 'math']"
+1469,A,1000,"['constructive algorithms', 'greedy']"
+1469,D,1700,"['brute force', 'constructive algorithms', 'math', 'number theory']"
+1469,B,1000,"['dp', 'greedy']"
+1465,C,1700,"['dfs and similar', 'dsu', 'greedy', 'implementation']"
+1465,B,1000,"['brute force', 'math', 'number theory']"
+1465,A,800,"['implementation', 'strings']"
+1459,A,800,"['math', 'probabilities']"
+1459,C,1600,"['math', 'number theory']"
+1463,A,1100,"['binary search', 'math']"
+1462,E1,1500,"['binary search', 'combinatorics', 'math', 'sortings', 'two pointers']"
+1462,E2,1700,"['binary search', 'combinatorics', 'implementation', 'math', 'sortings', 'two pointers']"
+1462,B,800,"['dp', 'implementation', 'strings']"
+1462,C,900,"['brute force', 'greedy', 'math']"
+1462,A,800,"['implementation', 'two pointers']"
+1461,D,1600,"['binary search', 'brute force', 'data structures', 'divide and conquer', 'implementation', 'sortings']"
+1461,B,1400,"['brute force', 'dp', 'implementation']"
+1461,A,800,"['constructive algorithms', 'greedy']"
+1450,B,1000,"['brute force', 'geometry', 'greedy']"
+1450,A,800,"['constructive algorithms', 'sortings']"
+1453,A,800,['implementation']
+1455,B,1200,"['constructive algorithms', 'math']"
+1455,D,1600,"['dp', 'greedy', 'sortings']"
+1455,C,1100,"['constructive algorithms', 'games', 'math']"
+1455,A,800,"['math', 'number theory']"
+1457,C,1400,"['dp', 'implementation']"
+1457,B,1100,"['brute force', 'greedy']"
+1457,A,800,"['brute force', 'math']"
+1454,D,1300,"['constructive algorithms', 'math', 'number theory']"
+1454,C,1200,"['greedy', 'implementation']"
+1454,B,800,['implementation']
+1454,A,800,"['constructive algorithms', 'probabilities']"
+1451,C,1400,"['dp', 'greedy', 'hashing', 'implementation', 'strings']"
+1451,B,900,"['dp', 'greedy', 'implementation', 'strings']"
+1451,A,800,"['greedy', 'math']"
+1452,A,800,['math']
+1452,B,1400,"['binary search', 'greedy', 'math', 'sortings']"
+1452,C,800,['greedy']
+1447,A,800,"['constructive algorithms', 'math']"
+1438,C,2000,"['2-sat', 'chinese remainder theorem', 'constructive algorithms', 'fft', 'flows']"
+1438,B,1000,"['constructive algorithms', 'data structures', 'greedy', 'sortings']"
+1438,A,800,"['constructive algorithms', 'implementation']"
+1443,D,1800,"['dp', 'greedy', 'math']"
+1443,B,1300,"['dp', 'greedy', 'math', 'sortings']"
+1443,C,1400,"['binary search', 'greedy', 'sortings']"
+1443,A,800,"['constructive algorithms', 'math']"
+1194,C,1300,"['implementation', 'strings']"
+1197,C,1400,"['greedy', 'sortings']"
+1260,B,1300,"['binary search', 'math']"
+1437,D,1600,"['graphs', 'greedy', 'shortest paths', 'trees']"
+1437,B,1200,"['constructive algorithms', 'greedy']"
+1437,A,800,"['brute force', 'constructive algorithms', 'greedy', 'math']"
+1435,D,1700,"['data structures', 'greedy', 'schedules']"
+1435,B,1100,"['constructive algorithms', 'implementation']"
+1435,A,800,['math']
+1436,B,900,"['constructive algorithms', 'math']"
+1436,A,800,['math']
+1321,C,1600,"['brute force', 'constructive algorithms', 'greedy', 'strings']"
+1321,B,1400,"['data structures', 'sortings']"
+1321,A,900,['greedy']
+1332,A,1100,"['greedy', 'implementation', 'math']"
+1332,B,1400,"['brute force', 'constructive algorithms', 'greedy', 'math', 'number theory']"
+1433,E,1300,"['combinatorics', 'math']"
+1433,D,1200,"['constructive algorithms', 'dfs and similar']"
+1433,B,800,"['greedy', 'implementation']"
+1433,C,900,"['constructive algorithms', 'greedy']"
+1433,A,800,"['implementation', 'math']"
+1421,C,1400,"['constructive algorithms', 'strings']"
+1421,A,800,"['bitmasks', 'greedy', 'math']"
+1428,B,1200,"['graphs', 'implementation']"
+1428,A,800,['math']
+1428,C,1100,"['brute force', 'data structures', 'greedy', 'strings']"
+1417,C,1500,['data structures']
+1417,B,1100,"['greedy', 'math', 'sortings']"
+1417,A,800,"['greedy', 'math']"
+1426,B,900,['implementation']
+1426,D,1500,"['constructive algorithms', 'data structures', 'greedy', 'sortings']"
+1426,C,1100,"['binary search', 'constructive algorithms', 'math']"
+1426,A,800,"['implementation', 'math']"
+376,B,1300,['implementation']
+376,A,900,"['implementation', 'math']"
+1430,E,1900,"['data structures', 'greedy', 'strings']"
+1430,C,1000,"['constructive algorithms', 'data structures', 'greedy', 'implementation', 'math']"
+1430,B,800,"['greedy', 'implementation', 'sortings']"
+1430,A,900,"['brute force', 'constructive algorithms', 'math']"
+1427,B,1400,"['greedy', 'implementation', 'sortings']"
+1427,A,900,"['math', 'sortings']"
+1422,A,800,"['geometry', 'math']"
+86,D,2200,"['data structures', 'implementation', 'math', 'two pointers']"
+1419,D1,1000,"['binary search', 'constructive algorithms', 'greedy', 'sortings']"
+1419,A,900,"['games', 'greedy', 'implementation']"
+731,A,800,"['implementation', 'strings']"
+214,A,800,['brute force']
+1418,C,1500,"['dp', 'graphs', 'greedy', 'shortest paths']"
+746,A,800,"['implementation', 'math']"
+758,A,800,"['implementation', 'math']"
+764,A,800,"['brute force', 'implementation', 'math']"
+32,A,800,['brute force']
+38,A,800,['implementation']
+47,A,800,"['brute force', 'math']"
+855,A,800,"['brute force', 'implementation', 'strings']"
+808,D,1900,"['binary search', 'data structures', 'implementation']"
+939,A,800,['graphs']
+1406,C,1700,"['constructive algorithms', 'dfs and similar', 'graphs', 'trees']"
+1406,A,900,"['greedy', 'implementation', 'math']"
+1406,B,1200,"['brute force', 'dp', 'greedy', 'implementation', 'sortings']"
+1407,A,1100,"['constructive algorithms', 'math']"
+1407,B,1300,"['brute force', 'greedy', 'math', 'number theory']"
+276,C,1500,"['data structures', 'greedy', 'implementation', 'sortings']"
+459,D,1800,"['data structures', 'divide and conquer', 'sortings']"
+100112,B,,[]
+1405,C,1500,"['greedy', 'implementation', 'strings']"
+1405,B,1000,"['constructive algorithms', 'implementation']"
+1405,A,800,['constructive algorithms']
+380,C,2000,"['data structures', 'schedules']"
+61,E,1900,"['data structures', 'trees']"
+1409,D,1500,"['greedy', 'math']"
+1409,C,1200,"['brute force', 'math', 'number theory']"
+1409,B,1100,"['brute force', 'greedy', 'math']"
+1409,A,800,"['greedy', 'math']"
+1118,B,1200,['implementation']
+1118,F1,1800,"['dfs and similar', 'trees']"
+1397,D,1800,"['brute force', 'games', 'greedy', 'implementation']"
+11,B,1600,['math']
+770,C,1500,"['*special', 'dfs and similar', 'graphs', 'implementation']"
+402,C,1500,"['brute force', 'constructive algorithms', 'graphs']"
+547,B,1900,"['binary search', 'data structures', 'dp', 'dsu']"
+1397,B,1500,"['brute force', 'math', 'number theory', 'sortings']"
+1397,A,800,"['greedy', 'strings']"
+177,C2,1500,"['brute force', 'dfs and similar', 'dsu', 'graphs']"
+177,C1,1500,"['dfs and similar', 'dsu', 'graphs']"
+574,B,1500,"['brute force', 'dfs and similar', 'graphs', 'hashing']"
+505,B,1400,"['dfs and similar', 'dp', 'dsu', 'graphs']"
+744,A,1500,"['dfs and similar', 'graphs']"
+1020,B,1000,"['brute force', 'dfs and similar', 'graphs']"
+687,A,1500,"['dfs and similar', 'graphs']"
+690,C1,1300,[]
+690,C2,1500,"['dfs and similar', 'graphs', 'trees']"
+862,B,1300,"['dfs and similar', 'graphs', 'trees']"
+846,A,1500,"['brute force', 'implementation']"
+1400,C,1500,"['2-sat', 'brute force', 'constructive algorithms', 'greedy']"
+1400,A,800,"['constructive algorithms', 'strings']"
+1139,C,1500,"['dfs and similar', 'dsu', 'graphs', 'math', 'trees']"
+102694,D,,[]
+102694,C,,[]
+126,B,1700,"['binary search', 'dp', 'hashing', 'string suffix structures', 'strings']"
+1401,D,1800,"['dfs and similar', 'dp', 'greedy', 'implementation', 'math', 'number theory', 'sortings', 'trees']"
+1401,C,1300,"['constructive algorithms', 'math', 'number theory', 'sortings']"
+1401,B,1100,"['constructive algorithms', 'greedy', 'math']"
+1401,A,900,"['constructive algorithms', 'math']"
+102694,B,,[]
+755,C,1300,"['dfs and similar', 'dsu', 'graphs', 'interactive', 'trees']"
+755,A,800,"['brute force', 'graphs', 'math', 'number theory']"
+771,A,1500,"['dfs and similar', 'dsu', 'graphs']"
+102694,A,,[]
+114,D,2000,"['data structures', 'hashing', 'string suffix structures', 'strings']"
+1200,E,2000,"['brute force', 'hashing', 'implementation', 'string suffix structures', 'strings']"
+101741,K,,[]
+1392,C,1200,"['greedy', 'implementation']"
+1392,B,800,"['implementation', 'math']"
+1392,A,800,"['greedy', 'math']"
+1395,B,1100,['constructive algorithms']
+1395,A,1000,"['brute force', 'math']"
+1169,B,1500,"['graphs', 'implementation']"
+1058,A,800,['implementation']
+1051,B,1000,"['greedy', 'math', 'number theory']"
+732,F,2300,"['dfs and similar', 'graphs']"
+118,E,2000,"['dfs and similar', 'graphs']"
+1391,C,1500,"['combinatorics', 'dp', 'graphs', 'math']"
+1391,B,800,"['brute force', 'greedy', 'implementation']"
+1391,A,800,"['constructive algorithms', 'math']"
+1393,B,1400,"['constructive algorithms', 'data structures', 'greedy', 'implementation']"
+1393,A,800,"['greedy', 'math']"
+1201,B,1500,"['greedy', 'math']"
+609,E,2100,"['data structures', 'dfs and similar', 'dsu', 'graphs', 'trees']"
+1399,D,1500,"['constructive algorithms', 'data structures', 'greedy', 'implementation']"
+1399,E1,2000,"['data structures', 'dfs and similar', 'greedy', 'trees']"
+832,D,1900,"['dfs and similar', 'graphs', 'trees']"
+1399,C,1200,"['brute force', 'greedy', 'two pointers']"
+1399,B,800,['greedy']
+1399,A,800,"['greedy', 'sortings']"
+1388,B,1000,"['greedy', 'math']"
+1388,A,800,"['brute force', 'greedy', 'math', 'number theory']"
+1365,D,1700,"['constructive algorithms', 'dfs and similar', 'dsu', 'graphs', 'greedy', 'implementation', 'shortest paths']"
+1003,B,1300,['constructive algorithms']
+893,C,1300,"['dfs and similar', 'graphs', 'greedy']"
+660,D,1900,['geometry']
+25,C,1900,"['graphs', 'shortest paths']"
+1389,C,1500,"['brute force', 'dp', 'greedy', 'two pointers']"
+1389,A,800,"['constructive algorithms', 'greedy', 'math', 'number theory']"
+25,E,2200,"['hashing', 'strings']"
+997,A,1500,"['brute force', 'greedy', 'implementation', 'math']"
+33,B,1800,['shortest paths']
+825,E,2300,"['data structures', 'dfs and similar', 'graphs', 'greedy']"
+35,C,1500,"['brute force', 'dfs and similar', 'shortest paths']"
+296,D,1700,"['dp', 'graphs']"
+369,C,1600,"['dfs and similar', 'graphs', 'trees']"
+61,D,1800,"['dfs and similar', 'graphs', 'greedy', 'shortest paths', 'trees']"
+1144,F,1700,"['dfs and similar', 'graphs']"
+1037,D,1700,"['dfs and similar', 'graphs', 'shortest paths', 'trees']"
+797,A,1100,"['implementation', 'math', 'number theory']"
+246,D,1600,"['brute force', 'dfs and similar', 'graphs']"
+1328,E,1900,"['dfs and similar', 'graphs', 'trees']"
+1384,C,1700,"['dfs and similar', 'dsu', 'graphs', 'greedy', 'sortings', 'trees']"
+1384,A,1200,"['constructive algorithms', 'greedy', 'strings']"
+263,D,1800,"['dfs and similar', 'graphs']"
+999,E,2000,"['dfs and similar', 'graphs', 'greedy']"
+1294,F,2000,"['dfs and similar', 'dp', 'greedy', 'trees']"
+767,C,2000,"['dfs and similar', 'graphs', 'greedy', 'trees']"
+1385,F,2300,"['data structures', 'greedy', 'implementation', 'trees']"
+987,D,1600,"['graphs', 'shortest paths']"
+1382,C1,1300,"['constructive algorithms', 'data structures', 'strings']"
+1382,B,1100,"['dp', 'games']"
+1382,A,800,['brute force']
+1379,B,1500,"['binary search', 'brute force', 'math', 'number theory']"
+990,A,1000,"['implementation', 'math']"
+990,B,1200,"['greedy', 'sortings']"
+1272,E,1900,"['dfs and similar', 'graphs', 'shortest paths']"
+1385,E,2000,"['constructive algorithms', 'dfs and similar', 'graphs']"
+1385,D,1500,"['bitmasks', 'brute force', 'divide and conquer', 'dp', 'implementation']"
+1385,C,1200,['greedy']
+1385,B,800,['greedy']
+1385,A,800,['math']
+727,A,1000,"['brute force', 'dfs and similar', 'math']"
+24,A,1400,['graphs']
+29,D,2000,"['constructive algorithms', 'dfs and similar', 'trees']"
+29,C,1700,"['data structures', 'dfs and similar', 'graphs', 'implementation']"
+20,C,1900,"['graphs', 'shortest paths']"
+1380,C,1400,"['brute force', 'dp', 'greedy', 'implementation', 'sortings']"
+1380,B,1400,['greedy']
+1380,A,900,"['brute force', 'data structures']"
+1372,C,1500,"['constructive algorithms', 'math']"
+894,C,1900,"['constructive algorithms', 'math']"
+381,A,800,"['greedy', 'implementation', 'two pointers']"
+294,A,800,"['implementation', 'math']"
+1372,B,1300,"['greedy', 'math', 'number theory']"
+1372,A,800,"['constructive algorithms', 'implementation']"
+189,A,1300,"['brute force', 'dp']"
+984,C,1700,"['implementation', 'math', 'number theory']"
+894,A,800,"['brute force', 'dp']"
+1063,A,1300,"['constructive algorithms', 'strings']"
+1337,C,1600,"['dfs and similar', 'dp', 'greedy', 'sortings', 'trees']"
+520,A,800,"['implementation', 'strings']"
+520,B,1400,"['dfs and similar', 'graphs', 'greedy', 'implementation', 'math', 'shortest paths']"
+489,A,1200,"['greedy', 'implementation', 'sortings']"
+978,F,1500,"['binary search', 'data structures', 'implementation']"
+978,E,1400,"['combinatorics', 'math']"
+978,D,1500,"['brute force', 'implementation', 'math']"
+978,B,800,"['greedy', 'strings']"
+978,A,800,['implementation']
+978,C,1000,"['binary search', 'implementation', 'two pointers']"
+580,C,1500,"['dfs and similar', 'graphs', 'trees']"
+515,C,1400,"['greedy', 'math', 'sortings']"
+550,C,1500,"['brute force', 'dp', 'math']"
+550,A,1500,"['brute force', 'dp', 'greedy', 'implementation', 'strings']"
+977,D,1400,"['dfs and similar', 'math', 'sortings']"
+977,B,900,"['implementation', 'strings']"
+1375,B,1200,"['constructive algorithms', 'greedy']"
+1375,C,1400,"['constructive algorithms', 'data structures', 'greedy']"
+1375,A,1100,"['constructive algorithms', 'math']"
+977,E,1500,"['dfs and similar', 'dsu', 'graphs']"
+977,C,1200,['sortings']
+976,A,800,['implementation']
+976,C,1500,"['greedy', 'implementation', 'sortings']"
+975,C,1400,['binary search']
+975,A,900,"['implementation', 'strings']"
+1371,C,1300,"['greedy', 'implementation', 'math']"
+1371,D,1600,"['constructive algorithms', 'greedy', 'implementation']"
+1371,B,1200,['math']
+1371,A,800,['math']
+1374,E1,1600,"['data structures', 'greedy', 'sortings']"
+1374,C,1000,"['greedy', 'strings']"
+1374,B,900,['math']
+1374,A,800,['math']
+919,B,1100,"['binary search', 'brute force', 'dp', 'implementation', 'number theory']"
+1373,C,1300,['math']
+1373,A,1000,"['greedy', 'implementation', 'math']"
+1373,B,900,['games']
+1369,C,1400,"['greedy', 'math', 'sortings', 'two pointers']"
+1369,B,1200,"['greedy', 'implementation', 'strings']"
+1369,A,800,"['geometry', 'math']"
+1165,C,1300,['greedy']
+1165,D,1600,"['math', 'number theory']"
+899,C,1300,"['constructive algorithms', 'graphs', 'math']"
+893,B,1000,"['brute force', 'implementation']"
+844,A,1000,"['greedy', 'implementation', 'strings']"
+1370,C,1400,"['games', 'math', 'number theory']"
+1370,B,1100,"['constructive algorithms', 'math', 'number theory']"
+1370,A,800,"['greedy', 'implementation', 'math', 'number theory']"
+1300,C,1500,"['greedy', 'math']"
+1300,B,1000,"['greedy', 'implementation', 'sortings']"
+1215,B,1400,"['combinatorics', 'dp', 'implementation']"
+23,B,1600,"['constructive algorithms', 'graphs', 'math']"
+1023,C,1200,['greedy']
+1023,A,1200,"['brute force', 'implementation', 'strings']"
+1023,B,1000,['math']
+365,A,1100,['implementation']
+365,B,1100,['implementation']
+1272,C,1200,"['combinatorics', 'dp', 'implementation']"
+1272,A,900,"['brute force', 'greedy', 'math', 'sortings']"
+271,D,1800,"['data structures', 'strings']"
+282,C,1500,"['constructive algorithms', 'implementation', 'math']"
+922,A,1300,['implementation']
+922,B,1300,['brute force']
+922,C,1600,"['brute force', 'number theory']"
+1368,B,1500,"['brute force', 'constructive algorithms', 'greedy', 'math', 'strings']"
+1368,C,1500,['constructive algorithms']
+1368,A,800,"['brute force', 'greedy', 'implementation', 'math']"
+327,B,1200,['math']
+347,B,1100,"['brute force', 'implementation', 'math']"
+876,C,1200,"['brute force', 'math']"
+1367,D,1800,"['constructive algorithms', 'greedy', 'implementation', 'sortings']"
+1367,F2,2400,"['binary search', 'data structures', 'dp', 'greedy', 'sortings', 'two pointers']"
+1367,F1,2100,"['dp', 'greedy', 'two pointers']"
+1367,C,1300,"['constructive algorithms', 'greedy', 'math']"
+1367,E,1900,"['brute force', 'dfs and similar', 'dp', 'graphs', 'greedy', 'number theory']"
+1367,B,800,"['greedy', 'math']"
+1367,A,800,"['implementation', 'strings']"
+876,A,900,['math']
+876,B,1300,"['implementation', 'math', 'number theory']"
+1225,A,900,['math']
+1068,B,1200,"['math', 'number theory']"
+1364,A,1200,"['brute force', 'data structures', 'number theory', 'two pointers']"
+1364,B,1300,"['greedy', 'two pointers']"
+1041,A,800,"['greedy', 'implementation', 'sortings']"
+1366,D,2000,"['constructive algorithms', 'math', 'number theory']"
+1366,A,1100,"['binary search', 'greedy', 'math']"
+1065,A,800,"['implementation', 'math']"
+1091,A,800,"['brute force', 'implementation', 'math']"
+1166,B,1100,"['constructive algorithms', 'math', 'number theory']"
+1047,A,800,['math']
+1047,B,900,"['geometry', 'math']"
+822,A,800,"['implementation', 'math', 'number theory']"
+832,A,800,"['games', 'math']"
+742,A,1000,"['implementation', 'math', 'number theory']"
+1365,A,1100,"['games', 'greedy', 'implementation']"
+1365,B,1300,"['constructive algorithms', 'implementation']"
+1144,C,1000,"['constructive algorithms', 'sortings']"
+1144,A,800,"['implementation', 'strings']"
+1144,B,900,"['greedy', 'implementation', 'sortings']"
+1362,C,1400,"['bitmasks', 'greedy', 'math']"
+1362,B,1200,"['bitmasks', 'brute force']"
+1362,A,1000,['implementation']
+475,D,2000,"['brute force', 'data structures', 'math']"
+475,B,1400,"['brute force', 'dfs and similar', 'graphs', 'implementation']"
+750,A,800,"['binary search', 'brute force', 'implementation', 'math']"
+1102,D,1500,"['greedy', 'strings']"
+1102,B,1400,"['greedy', 'sortings']"
+1102,C,1200,['games']
+1102,A,800,['math']
+633,B,1300,"['brute force', 'constructive algorithms', 'math', 'number theory']"
+633,A,1100,"['brute force', 'math', 'number theory']"
+1101,A,1000,['math']
+1108,A,800,['implementation']
+1108,D,1400,"['constructive algorithms', 'dp', 'greedy']"
+1108,C,1300,"['brute force', 'greedy', 'math']"
+1108,B,1100,"['brute force', 'greedy', 'math', 'number theory']"
+1106,A,800,['implementation']
+1106,C,900,"['greedy', 'implementation', 'math', 'sortings']"
+1080,A,800,['math']
+1076,A,1200,"['greedy', 'strings']"
+1076,C,1300,"['binary search', 'math']"
+1076,B,1200,"['implementation', 'math', 'number theory']"
+1203,C,1300,"['implementation', 'math']"
+1203,A,1000,['implementation']
+1203,E,1500,"['greedy', 'sortings']"
+1073,D,1700,"['binary search', 'brute force', 'data structures', 'greedy']"
+1073,B,1000,"['implementation', 'math']"
+1073,A,1000,"['implementation', 'strings']"
+1363,C,1600,"['games', 'trees']"
+1363,A,1200,"['brute force', 'implementation', 'math']"
+1363,B,1400,"['implementation', 'strings']"
+313,A,900,"['implementation', 'number theory']"
+405,A,900,"['greedy', 'implementation', 'sortings']"
+160,A,900,"['greedy', 'sortings']"
+427,A,800,['implementation']
+466,A,1200,['implementation']
+379,A,1000,['implementation']
+489,C,1400,"['dp', 'greedy', 'implementation']"
+509,A,800,"['brute force', 'implementation']"
+579,A,1000,['bitmasks']
+749,A,800,"['greedy', 'implementation', 'math', 'number theory']"
+344,A,800,['implementation']
+677,A,800,['implementation']
+136,A,800,['implementation']
+580,A,900,"['brute force', 'dp', 'implementation']"
+734,A,800,"['implementation', 'strings']"
+791,A,800,['implementation']
+58,A,1000,"['greedy', 'strings']"
+158,A,800,"['*special', 'implementation']"
+4,C,1300,"['data structures', 'hashing', 'implementation']"
+1326,D2,1800,"['binary search', 'greedy', 'hashing', 'string suffix structures', 'strings']"
+1326,D1,1500,"['hashing', 'string suffix structures', 'strings']"
+182,D,1400,"['brute force', 'hashing', 'implementation', 'math', 'strings']"
+1203,D1,1600,"['greedy', 'implementation']"
+493,B,1400,['implementation']
+1359,D,2000,"['data structures', 'dp', 'implementation', 'two pointers']"
+1359,B,1000,"['brute force', 'dp', 'greedy', 'implementation', 'two pointers']"
+1359,C,1700,"['binary search', 'math']"
+1359,A,1000,"['brute force', 'greedy', 'math']"
+1354,C2,2000,"['binary search', 'brute force', 'geometry', 'math']"
+1354,B,1200,"['binary search', 'dp', 'implementation', 'two pointers']"
+1175,A,900,"['implementation', 'math']"
+1015,C,1100,['sortings']
+1015,B,1200,['implementation']
+1015,A,800,['implementation']
+1358,C,1600,['math']
+1358,D,1900,"['binary search', 'brute force', 'greedy', 'implementation', 'two pointers']"
+1358,B,1000,"['greedy', 'sortings']"
+1358,A,800,"['greedy', 'math']"
+439,A,900,"['greedy', 'implementation']"
+439,D,1700,"['binary search', 'sortings', 'ternary search', 'two pointers']"
+1316,A,800,['implementation']
+1316,B,1400,"['brute force', 'constructive algorithms', 'implementation', 'sortings', 'strings']"
+1316,C,1800,"['constructive algorithms', 'math', 'ternary search']"
+676,A,800,"['constructive algorithms', 'implementation']"
+676,C,1500,"['binary search', 'dp', 'strings', 'two pointers']"
+1360,D,1300,"['math', 'number theory']"
+706,A,900,"['brute force', 'geometry', 'implementation']"
+706,B,1100,"['binary search', 'dp', 'implementation']"
+1360,F,1700,"['bitmasks', 'brute force', 'constructive algorithms', 'dp', 'hashing', 'strings']"
+1360,G,1900,"['constructive algorithms', 'greedy', 'math']"
+1360,C,1100,"['constructive algorithms', 'graph matchings', 'greedy', 'sortings']"
+1360,E,1300,"['dp', 'graphs', 'implementation', 'shortest paths']"
+1360,B,800,"['greedy', 'sortings']"
+1360,A,800,"['greedy', 'math']"
+803,C,1900,"['constructive algorithms', 'greedy', 'math']"
+980,A,900,"['implementation', 'math']"
+1354,C1,1400,"['binary search', 'geometry', 'math', 'ternary search']"
+1354,A,900,['math']
+1355,B,1200,"['dp', 'greedy', 'sortings']"
+1355,D,1400,"['constructive algorithms', 'math']"
+1355,A,1200,"['brute force', 'implementation', 'math']"
+1350,C,1600,"['math', 'number theory']"
+1236,B,1500,"['combinatorics', 'math']"
+1236,A,800,"['brute force', 'greedy', 'math']"
+1353,D,1600,"['constructive algorithms', 'data structures', 'sortings']"
+1353,A,800,"['constructive algorithms', 'greedy', 'math']"
+1353,C,1000,['math']
+1353,B,800,"['greedy', 'sortings']"
+1350,B,1400,"['dp', 'math', 'number theory']"
+1350,A,900,['math']
+1253,A,1000,['implementation']
+1352,E,1500,"['brute force', 'implementation', 'two pointers']"
+1352,F,1500,"['constructive algorithms', 'dfs and similar', 'math']"
+1352,C,1200,"['binary search', 'math']"
+1352,B,1200,"['constructive algorithms', 'math']"
+1352,D,1300,['implementation']
+1352,A,800,"['implementation', 'math']"
+1345,C,1600,"['math', 'sortings']"
+1345,B,1100,"['binary search', 'brute force', 'dp', 'math']"
+1345,A,800,['math']
+1348,B,1400,"['constructive algorithms', 'data structures', 'greedy', 'sortings']"
+1348,A,800,"['greedy', 'math']"
+1150,C,1200,"['constructive algorithms', 'greedy', 'math', 'number theory']"
+1150,D,2200,"['dp', 'strings']"
+1342,C,1600,"['math', 'number theory']"
+1342,A,1000,"['greedy', 'math']"
+1342,B,1100,"['constructive algorithms', 'strings']"
+1341,B,1300,"['greedy', 'implementation']"
+1341,A,900,['math']
+1343,D,1700,"['brute force', 'data structures', 'greedy', 'two pointers']"
+1343,C,1200,"['dp', 'greedy', 'two pointers']"
+1343,B,800,"['constructive algorithms', 'math']"
+1343,A,900,"['brute force', 'math']"
+1203,B,1200,"['greedy', 'math']"
+327,A,1200,"['brute force', 'dp', 'implementation']"
+474,A,900,['implementation']
+705,A,800,['implementation']
+431,A,800,['implementation']
+131,C,1400,"['combinatorics', 'math']"
+131,A,1000,"['implementation', 'strings']"
+122,B,1000,"['brute force', 'implementation']"
+122,A,1000,"['brute force', 'number theory']"
+835,A,800,['math']
+835,B,1100,['greedy']
+363,B,1100,"['brute force', 'dp']"
+1337,D,1700,"['binary search', 'data structures', 'implementation', 'math', 'sortings']"
+1337,B,900,"['greedy', 'implementation', 'math']"
+1337,A,800,"['constructive algorithms', 'math']"
+432,A,800,"['greedy', 'implementation', 'sortings']"
+1335,D,1300,"['constructive algorithms', 'implementation']"
+1335,C,1100,"['binary search', 'greedy', 'implementation', 'sortings']"
+1335,B,900,['constructive algorithms']
+1335,A,800,['math']
+1338,A,1500,"['greedy', 'math']"
+1339,C,1500,"['bitmasks', 'brute force', 'greedy']"
+1339,A,900,"['brute force', 'dp', 'implementation', 'math']"
+1339,B,1200,"['constructive algorithms', 'sortings']"
+1334,A,1200,"['implementation', 'math']"
+1334,B,1100,"['greedy', 'sortings']"
+1333,B,1100,"['greedy', 'implementation']"
+1333,F,2200,"['greedy', 'implementation', 'math', 'number theory', 'sortings', 'two pointers']"
+1333,C,1700,"['binary search', 'data structures', 'implementation', 'two pointers']"
+1333,A,1000,['constructive algorithms']
+1330,A,900,['implementation']
+1331,B,,"['*special', 'math', 'number theory']"
+1331,D,,"['*special', 'implementation']"
+1331,A,,['*special']
+1328,C,1200,"['greedy', 'implementation']"
+1328,A,800,['math']
+1327,A,1100,['math']
+1326,B,900,"['implementation', 'math']"
+1326,A,1000,"['constructive algorithms', 'number theory']"
+1325,B,800,"['greedy', 'implementation']"
+1325,A,800,"['constructive algorithms', 'greedy', 'number theory']"
+1324,C,1100,"['binary search', 'data structures', 'dfs and similar', 'greedy', 'implementation']"
+1324,A,900,"['implementation', 'number theory']"
+1324,B,1100,"['brute force', 'strings']"
+1312,B,1000,"['constructive algorithms', 'sortings']"
+1312,A,800,"['geometry', 'greedy', 'math', 'number theory']"
+1305,C,1600,"['brute force', 'combinatorics', 'math', 'number theory']"
+1305,A,800,"['brute force', 'constructive algorithms', 'greedy', 'sortings']"
+1311,C,1300,['brute force']
+1311,B,1200,"['dfs and similar', 'sortings']"
+1311,A,800,"['greedy', 'implementation', 'math']"
+1315,A,800,['implementation']
+1307,A,800,"['greedy', 'implementation']"
+1304,A,800,['math']
+1304,B,1100,"['brute force', 'constructive algorithms', 'greedy', 'implementation', 'strings']"
+1301,A,800,"['implementation', 'strings']"
+1303,B,1400,['math']
+1303,A,800,"['implementation', 'strings']"
+1097,B,1200,"['bitmasks', 'brute force', 'dp']"
+1300,A,800,"['implementation', 'math']"
+1294,A,800,['math']
+959,A,800,"['games', 'math']"
+977,A,800,['implementation']
+1186,A,800,['implementation']
+1097,A,800,"['brute force', 'implementation']"
+1146,A,800,"['implementation', 'strings']"
+1030,A,800,['implementation']
+1037,B,1300,['greedy']
+1037,C,1300,"['dp', 'greedy', 'strings']"
+456,A,1100,['sortings']
+456,B,1200,"['math', 'number theory']"
+1216,B,900,"['greedy', 'implementation', 'sortings']"
+1216,A,800,['strings']
+1220,A,800,"['implementation', 'sortings', 'strings']"
+460,B,1500,"['brute force', 'implementation', 'math', 'number theory']"
+460,A,900,"['brute force', 'implementation', 'math']"
+1104,B,1200,"['data structures', 'implementation', 'math']"
+1194,A,800,['math']
+1104,A,800,"['constructive algorithms', 'implementation', 'math']"
+472,A,800,"['math', 'number theory']"
+688,A,800,['implementation']
+688,B,1000,"['constructive algorithms', 'math']"
+831,B,800,"['implementation', 'strings']"
+1278,A,1000,"['brute force', 'implementation', 'strings']"
+492,B,1200,"['binary search', 'implementation', 'math', 'sortings']"
+492,A,800,['implementation']
+762,A,1400,"['math', 'number theory']"
+675,A,1100,['math']
+1107,B,1000,"['math', 'number theory']"
+1107,A,900,"['greedy', 'strings']"
+188,C,1400,"['*special', 'implementation', 'math']"
+1154,A,800,['math']
+479,A,1000,"['brute force', 'math']"
+486,A,800,"['implementation', 'math']"
+1238,A,900,"['math', 'number theory']"
+514,A,1200,"['greedy', 'implementation']"
+205,B,1400,"['brute force', 'greedy']"
+205,A,900,"['brute force', 'implementation']"
+1296,D,1500,"['greedy', 'sortings']"
+1296,C,1500,"['data structures', 'implementation']"
+1296,B,900,['math']
+1296,A,800,['math']
+78,B,1200,"['constructive algorithms', 'implementation']"
+202,A,800,"['binary search', 'bitmasks', 'brute force', 'greedy', 'implementation', 'strings']"
+349,B,1700,"['data structures', 'dp', 'greedy', 'implementation']"
+349,A,1100,"['greedy', 'implementation']"
+1291,A,900,"['greedy', 'math', 'strings']"
+1095,A,800,['implementation']
+1095,B,900,['implementation']
+1095,C,1400,"['bitmasks', 'greedy']"
+551,A,800,"['brute force', 'implementation', 'sortings']"
+139,A,1000,['implementation']
+270,A,1100,"['geometry', 'implementation', 'math']"
+1213,C,1200,['math']
+546,C,1400,"['brute force', 'dfs and similar', 'games']"
+546,B,1200,"['brute force', 'greedy', 'implementation', 'sortings']"
+546,A,800,"['brute force', 'implementation', 'math']"
+1013,B,1200,['greedy']
+1011,A,900,"['greedy', 'implementation', 'sortings']"
+591,B,1200,"['implementation', 'strings']"
+591,A,900,"['implementation', 'math']"
+842,A,1200,"['brute force', 'two pointers']"
+1013,A,800,['math']
+467,A,800,['implementation']
+50,B,1500,['strings']
+50,A,800,"['greedy', 'math']"
+1,A,1000,['math']
+1269,A,800,"['brute force', 'math']"
+716,A,800,['implementation']
+1006,B,1200,"['greedy', 'implementation', 'sortings']"
+1006,A,800,['implementation']
+1006,C,1200,"['binary search', 'data structures', 'two pointers']"
+1295,D,1800,"['math', 'number theory']"
+1295,A,900,['greedy']
+258,A,1100,"['greedy', 'math']"
+118,B,1000,"['constructive algorithms', 'implementation']"
+118,A,1000,"['implementation', 'strings']"
+165,A,1000,['implementation']
+600,B,1300,"['binary search', 'data structures', 'sortings', 'two pointers']"
+224,A,1100,"['brute force', 'geometry', 'math']"
+279,B,1400,"['binary search', 'brute force', 'implementation', 'two pointers']"
+577,A,1000,"['implementation', 'number theory']"
+34,B,900,"['greedy', 'sortings']"
+34,A,800,['implementation']
+617,A,800,['math']
+617,B,1300,['combinatorics']
+1294,C,1300,"['greedy', 'math', 'number theory']"
+1293,A,1100,"['binary search', 'brute force', 'implementation']"
+1293,B,1000,"['combinatorics', 'greedy', 'math']"
+219,A,1000,"['implementation', 'strings']"
+318,A,900,['math']
+41,A,800,"['implementation', 'strings']"
+43,A,1000,['strings']
+43,B,1100,"['implementation', 'strings']"
+320,A,900,"['brute force', 'greedy']"
+352,A,1000,"['brute force', 'implementation', 'math']"
+199,A,900,"['brute force', 'constructive algorithms', 'implementation', 'number theory']"
+304,A,1200,"['brute force', 'math']"
+450,B,1300,"['implementation', 'math']"
+450,A,1000,['implementation']
+315,A,1400,['brute force']
+228,A,800,['implementation']
+141,A,800,"['implementation', 'sortings', 'strings']"
+71,A,800,['strings']
+248,A,800,['implementation']
+266,B,800,"['constructive algorithms', 'graph matchings', 'implementation', 'shortest paths']"
+231,A,800,"['brute force', 'greedy']"
+151,A,800,"['implementation', 'math']"
+144,A,800,['implementation']
+233,A,800,"['implementation', 'math']"
+510,A,800,['implementation']
+282,A,800,['implementation']
+112,A,800,"['implementation', 'strings']"
+133,B,1200,['implementation']
+133,A,900,['implementation']
+266,A,800,['implementation']
+263,A,800,['implementation']
+69,A,1000,"['implementation', 'math']"
+116,A,800,['implementation']
+155,A,800,['brute force']
+80,B,1200,"['geometry', 'math']"
+80,A,800,['brute force']
+148,A,800,"['constructive algorithms', 'implementation', 'math']"
+200,B,800,"['implementation', 'math']"
+339,A,800,"['greedy', 'implementation', 'sortings', 'strings']"
+236,C,1600,"['greedy', 'number theory']"
+236,A,800,"['brute force', 'implementation', 'strings']"
+186,A,1100,"['implementation', 'strings']"
+235,A,1600,['number theory']
+236,B,1300,"['implementation', 'number theory']"
+489,B,1200,"['dfs and similar', 'dp', 'graph matchings', 'greedy', 'sortings', 'two pointers']"
+1288,A,1100,"['binary search', 'brute force', 'math', 'ternary search']"
+1288,B,1100,['math']
+1042,A,1100,"['binary search', 'implementation']"
+96,A,900,"['implementation', 'strings']"
+1285,C,1400,"['brute force', 'math', 'number theory']"
+1285,A,800,['math']
+32,B,800,"['expression parsing', 'implementation']"
+110,A,800,['implementation']
+451,B,1300,"['implementation', 'sortings']"
+230,B,1300,"['binary search', 'implementation', 'math', 'number theory']"
+239,A,1200,"['greedy', 'implementation', 'math']"
+260,A,1400,"['implementation', 'math']"
+61,A,800,['implementation']
+281,A,800,"['implementation', 'strings']"
+59,A,800,"['implementation', 'strings']"
+275,A,900,['implementation']
+271,A,800,['brute force']
+1287,A,800,"['greedy', 'implementation']"
+1284,A,800,"['implementation', 'strings']"
+4,A,800,"['brute force', 'math']"
+1088,A,800,"['brute force', 'constructive algorithms']"
+1270,B,1200,"['constructive algorithms', 'greedy', 'math']"
+1270,A,800,"['games', 'greedy', 'math']"
+1283,B,900,['math']
+1283,A,800,['math']
+1271,A,800,"['brute force', 'greedy', 'math']"
+1281,A,800,['implementation']
+1277,B,1200,"['greedy', 'number theory']"
+1277,A,1000,['implementation']
+1263,C,1400,"['binary search', 'math', 'meet-in-the-middle', 'number theory']"
+1260,A,1000,['math']
+1262,B,1200,['constructive algorithms']
+1257,B,1000,['math']
+1257,C,1200,"['greedy', 'implementation', 'sortings', 'strings', 'two pointers']"
+1257,A,800,"['greedy', 'math']"
+1256,A,1000,['math']
+1247,B2,1300,"['implementation', 'two pointers']"
+1247,B1,1000,['implementation']
+1247,A,900,['math']
+1251,A,1000,"['brute force', 'strings', 'two pointers']"
+1249,B2,1300,"['dfs and similar', 'dsu', 'math']"
+1249,B1,1000,"['dsu', 'math']"
+1249,C1,1300,"['brute force', 'greedy', 'implementation']"
+1249,A,800,['math']
+1244,A,800,['math']
+1241,A,800,['math']
+1241,B,1000,"['brute force', 'strings']"
+1234,A,800,['math']
+1228,C,1700,"['math', 'number theory']"
+1228,A,800,"['brute force', 'implementation']"
+1230,A,800,"['brute force', 'implementation']"
+1230,B,1000,"['greedy', 'implementation']"
+1209,A,800,"['greedy', 'implementation', 'math']"
+1208,B,1500,"['binary search', 'brute force', 'implementation', 'two pointers']"
+1208,A,900,['math']
+1206,B,900,"['dp', 'implementation']"
+1206,C,1200,"['constructive algorithms', 'math']"
+1206,A,800,"['math', 'sortings']"
+1199,B,1000,"['geometry', 'math']"
+102219,J,,[]
+1196,B,1200,"['constructive algorithms', 'math']"
+1196,A,800,"['brute force', 'constructive algorithms', 'math']"
+1197,A,900,"['greedy', 'math', 'sortings']"
+1174,B,1200,['sortings']
+1174,A,1000,"['constructive algorithms', 'greedy', 'sortings']"
+1148,A,800,['greedy']
+1169,A,900,"['implementation', 'math']"
+1145,C,,"['bitmasks', 'brute force']"
+1145,B,,['brute force']
+1133,B,1200,"['math', 'number theory']"
+1133,A,1000,['implementation']
+1121,B,1200,"['brute force', 'implementation']"
+1130,A,800,['implementation']
+1118,A,800,['math']
+1117,B,1000,"['greedy', 'math', 'sortings']"
+1117,A,1100,"['implementation', 'math']"
+1114,C,1700,"['brute force', 'implementation', 'math', 'number theory']"
+1114,A,800,"['brute force', 'greedy', 'implementation']"
+1092,B,800,['sortings']
+1092,A,800,['implementation']
+1081,A,800,"['constructive algorithms', 'math']"
+1077,C,1300,[]
+1077,B,1000,['greedy']
+1077,A,800,['math']
+1062,A,1300,"['greedy', 'implementation']"
+1072,A,800,"['implementation', 'math']"
+1054,B,1000,['implementation']
+1054,A,800,['implementation']
+1064,A,800,"['brute force', 'geometry', 'math']"
+1033,B,1100,"['math', 'number theory']"
+1033,D,2000,"['interactive', 'math', 'number theory']"
+1037,A,1300,"['constructive algorithms', 'greedy', 'math']"
