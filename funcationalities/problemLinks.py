@@ -9,9 +9,13 @@ import pandas as pd
 # pip install pandas requests
 # pip freeze > requirements.txt
 # git init
+
 # git add .
 # git commit -m "message"
+# git push
+
 # heroku cli install
+# echo "web: gunicorn app:app" > Procfile
 # Create application inside heroku dashboard
 # git remote add origin ssh_link/htt_link
 # git branch -M main
