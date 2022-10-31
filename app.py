@@ -10,14 +10,13 @@ def hello_world():
     return "hello world"
 
 
-@app.route('/<int:n>')
-def callProblems(n):
-    userlist = ["maxrage", "Dev_Manus",
-                "Dipankar_Kumar_Singh", "akashsingh_10"]
-
-    low = 1400
-    high = 1600
-    need = 1
+@app.route('/getProblemLinks')
+def callProblems():
+    
+    userlist = request.args.get('userlist').split(',')
+    low = int(request.args.get('low'))
+    high = int(request.args.get('high'))
+    need = int(request.args.get('need'))
     obj = problems()
     return jsonify(obj.getProblemLinks(low, high, userlist, need))
 
