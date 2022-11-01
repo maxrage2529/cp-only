@@ -26,19 +26,19 @@ import os
 
 class problems:
     dirname = os.path.dirname(__file__)
-
+    DB_DIR = os.path.join(dirname, "database")
     def __init__(self, forceReload):
         if not os.path.exists(os.path.join(self.dirname, "database")):
             print("Creating new db directory")
             os.mkdir(os.path.join(self.dirname, "database"))
         start = time.time()
-        filename = os.path.join(self.dirname, "database\problemCounts_df.csv")
+        filename = os.path.join(self.DB_DIR,"problemCounts_df.csv")
         print(filename)
         if (not os.path.exists(filename)):
             pd.DataFrame({"username": [], "count": []}
                          ).to_csv(filename, index=False)
         self.problemCounts_df = pd.read_csv(filename)
-        filename = os.path.join(self.dirname, 'database\mainProblems_df.csv')
+        filename = os.path.join(self.DB_DIR,"mainProblems_df.csv")
         if ((not os.path.exists(filename)) or forceReload):
             self.refresh()
         self.allProblems_df = pd.read_csv(filename)
@@ -48,7 +48,7 @@ class problems:
         try:
             start = time.time()
             filename = os.path.join(
-                self.dirname, 'database\mainProblems_df.csv')
+                self.DB_DIR,'mainProblems_df.csv')
             problemset_problems = json.loads(requests.get(
                 "https://codeforces.com/api/problemset.problems").text)
             mainProblems = problemset_problems["result"]["problems"]
@@ -98,7 +98,7 @@ class problems:
                 self.problemCounts_df = pd.concat([self.problemCounts_df, pd.DataFrame(
                     [{"username": user, "count": newCount}])], ignore_index=True)
 
-        filename = os.path.join(self.dirname, "database\problemCounts_df.csv")
+        filename = os.path.join(self.DB_DIR,'problemCounts_df.csv')
         self.problemCounts_df.to_csv(filename, index=False)
         # userProblems_df.drop(["name", "type", "points"], axis=1, inplace=True)
         userProblems_df = userProblems_df[[
@@ -110,7 +110,7 @@ class problems:
 
     def mergeUserProblems(self, user):
         # try:
-        filename = os.path.join(self.dirname, f"database\{user}.csv")
+        filename = os.path.join(self.DB_DIR, f"{user}.csv")
         print(os.path.exists(filename))
         if (not os.path.exists(filename)):
             try:
@@ -129,8 +129,7 @@ class problems:
             count = self.getUserProblemsFunction(user, totalSize+1).shape[0]
             print(totalSize, count)
             if (count > 0):
-                filename = os.path.join(os.path.dirname(
-                    __file__), f"database\{user}.csv")
+                filename = os.path.join(self.DB_DIR, f"{user}.csv")
                 tempUser_df = pd.read_csv(filename)
                 newSolvedProblems = self.getUserProblemsFunction(
                     user, 1, count+1)
@@ -147,11 +146,11 @@ class problems:
         start = time.time()
         # userlist=["maxrage","Dev_Manus","Dipankar_Kumar_Singh","akashsingh_10"]
         self.mergeUserProblems(userlist[0])
-        filename = os.path.join(self.dirname, f"database\{userlist[0]}.csv")
+        filename = os.path.join(self.DB_DIR, f"{userlist[0]}.csv")
         self.userProblems_df = pd.read_csv(filename)
         for user in userlist[1:]:
             self.mergeUserProblems(user)
-            filename = os.path.join(self.dirname, f"database\{user}.csv")
+            filename = os.path.join(self.DB_DIR, f"{user}.csv")
             # print(pd.concat([self.userProblems_df, pd.read_csv(filename)]
             #     ,ignore_index=True))
             self.userProblems_df = pd.concat(
