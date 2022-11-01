@@ -3,8 +3,11 @@ from funcationalities.problemLinks import problems
 from flask import Flask, jsonify, request
 import time
 import os
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
+
 
 DATABSE_PATH = os.path.join(os.path.dirname(
     __file__), "funcationalities", "database")
