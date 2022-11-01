@@ -29,9 +29,11 @@ class problems:
 
     def __init__(self, forceReload):
         if not os.path.exists(os.path.join(self.dirname, "database")):
+            print("Creating new db directory")
             os.mkdir(os.path.join(self.dirname, "database"))
         start = time.time()
         filename = os.path.join(self.dirname, "database\problemCounts_df.csv")
+        print(filename)
         if (not os.path.exists(filename)):
             pd.DataFrame({"username": [], "count": []}
                          ).to_csv(filename, index=False)
