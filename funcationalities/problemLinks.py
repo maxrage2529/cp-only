@@ -158,9 +158,17 @@ class problems:
             self.userProblems_df = self.userProblems_df.drop_duplicates(
                 subset=["contestId", "index"], ignore_index=True)
 
-        # user="userProblems_df"
+        self.allProblems_df = pd.merge(
+                self.allProblems_df, self.userProblems_df, on=["contestId", "index","rating"] ,how="outer",indicator=True)
+        self.allProblems_df = self.allProblems_df.loc[self.allProblems_df["_merge"] == "left_only"].drop(["_merge","tags_y"], axis=1)
+        self.allProblems_df.rename(columns = {'tags_x':'tags'}, inplace = True)
+        user="userProblems_df"
+        filename = os.path.join(self.dirname, f"database\{user}.csv")
+        self.userProblems_df.to_csv(filename,index=False)
+        
+        # user="allProblems_df"
         # filename = os.path.join(self.dirname, f"database\{user}.csv")
-        # self.userProblems_df.to_csv(filename,index=False)
+        # self.allProblems_df.to_csv(filename,index=False)
         print(f"{time.time() - start} s in createUserProblems")
         # except:
         #     self.createUserProblems(userlist)
@@ -169,6 +177,9 @@ class problems:
         # try:
         start = time.time()
         self.createUserProblems(userlist)
+        user="allProblems_df"
+        filename = os.path.join(self.dirname, f"database\{user}.csv")
+        self.allProblems_df.to_csv(filename,index=False)
         self.allProblems_df = self.allProblems_df.loc[(
             self.allProblems_df.rating >= low) & (self.allProblems_df.rating <= high)]
         print(f"{time.time() - start} s in getProblemLinks or total time take")
@@ -179,8 +190,7 @@ class problems:
 
 if __name__ == "__main__":
     obj = problems(False)
-    userlist = ["maxrage", "Dev_Manus",
-                "Dipankar_Kumar_Singh", "akashsingh_10"]
+    userlist = ["maxrage", "Dev_Manus"]
     low = 1400
     high = 1600
     need = 1
